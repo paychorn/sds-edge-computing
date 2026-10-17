@@ -8,8 +8,20 @@ yarn-error.log*
 
 # Environment variables
 .env
+.env.*
+!.env.example
 
 # Vite / build output
 dist/
 
-*/.vscode/*
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
