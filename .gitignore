@@ -25,3 +25,10 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
+
+# Virtual environments
+venv/
+env/
+.venv/
+sds/
+sdsAct10/
